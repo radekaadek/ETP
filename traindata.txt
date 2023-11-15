@@ -1,0 +1,308 @@
+Pomiar odległości dalmierzem elektromagnetycznym
+Fala sinusoidalna
+Zależność długości fali od częstotliwości
+λ
+Pomiar fazowy
+y AsinAsin t 
+t
+2f
+A – amplituda, prędkość kątowa (rad/sec), t – czas (sec), faza (rad), f częstotliwość (Hz)
+Możemy zapisać
+Propagacja sygnału
+Całkowita odległość wynosi
+D=(N*)p
+p= (82ᵒ30’38.9’’/360) * 20 m = 4.584m
+Jeżeli N=10 to
+2D=10*20m+4.584 m = 204.584 m
+D=102.292 m
+Problemem jest wyznaczenie całkowitej liczby odłożeń fali N
+Pomiar na wielu częstotliwościach
+(ciągłe i skokowe zmiany częstotliwości)
+f1 = 10*f2;
+f2 = 10*f3
+λ, m p, m D,m
+10.00 m 3.69 3.69
+100.0 m 53.7 53.69
+1000. m 454 453.69
+10,000 m 8450 8453.69
+D=8453.69/2=4226.84 m
+Reflektor Zwrotny
+Każda powierzchnia zdolna do odbicia sygnału elektrooptycznego umożliwi pomiar odległości. Jednak
+im wydajniejszy reflektor, tym silniejszy sygnał zwrotny i większa odległość, którą można zmierzyć.
+Sprawność obejmuje ilość sygnału odbitego wraz z kierunkiem jego ścieżki powrotnej.
+Redukcje zmierzonej odległości
+Odległość pozioma (z uwzględnieniem zakrzywienia
+Ziemi)
+lub
+𝑯𝑫 = 𝑺𝑫 ∗ (𝐬𝐢𝐧(𝒛) − 𝑬𝟏 ∗ 𝐜𝐨 𝐬(𝒛))
+gdzie
+𝑬𝟏 = 𝟎. 𝟗𝟐𝟗
+𝟔𝟑𝟕𝟐𝟎𝟎𝟎 ∗ 𝑺𝑫 ∗ (𝐬𝐢 𝐧(𝒛))
+Dokładność pomiaru odległości metodą fazową
+𝐷 = 𝑐
+2𝑓𝑛 (𝑁 + ∆𝜑
+2𝜋) + 𝑘
+𝑚𝐷
+2 = (𝜕𝐷
+𝜕𝑐 )2𝑚𝑐
+2 + (𝜕𝐷
+𝜕𝑛)2𝑚𝑛
+2 + (𝜕𝐷
+𝜕𝑓 )2𝑚𝑓
+2 + ( 𝜕𝐷
+𝜕∆𝜑)2𝑚∆𝜑
+2 + (𝜕𝐷
+𝜕𝑘 )2𝑚𝑘
+2
+𝜕𝐷
+𝜕𝑐 = 1
+2𝑓𝑛 (𝑁 + ∆𝜑
+2𝜋) = 𝐷
+𝑐 (mnożymy i dzielimy przez c obie strony równania)
+𝜕𝐷
+𝜕𝑛 = − 𝐷
+𝑛
+𝜕𝐷
+𝜕𝑓 = − 𝐷
+𝑓
+𝜕𝐷
+𝜕∆𝜑 = 𝑐
+2𝑓𝑛 ∗ 1
+2𝜋 = 𝑠
+𝜕𝐷
+𝜕𝑘 = 1
+𝑚𝐷
+2 = 𝑠2𝑚∆𝜑
+2 + 𝑚𝑘
+2 + [(𝑚𝑐
+𝑐 )2 + (𝑚𝑓
+𝑓 )2 + (𝑚𝑛
+𝑛 )2]𝐷2
+oznaczając
+𝑚𝑎
+2 = 𝑠2𝑚∆𝜑
+2 + 𝑚𝑘
+2
+𝑚𝑏
+2 = (𝑚𝑐
+𝑐 )2 + (𝑚𝑓
+𝑓 )2 + (𝑚𝑛
+𝑛 )2
+Mamy
+𝒎𝑫 = √𝒎𝒂
+𝟐 + 𝒎𝒃
+𝟐𝑫𝟐
+lub
+𝒎𝑫 = ±(𝒎𝒂 + 𝒎𝒃𝑫)
+Wpływy środowiska na pomiary długości
+Prędkość światła w próżni
+c0 = 299 792458 m/s
+w innym medium (np. atmosfera)
+𝑐 = 𝑐0
+𝑛
+n jest bezwymiarowym indeksem refrakcyjności i jest definiowany jako iloraz prędkości
+światła w próżni do prędkości światła w atmosferze (medium)
+c < c0 i n>1
+w powietrzu
+1.0001 < n < 1.0005
+A zatem
+299 642 637 < c < 299 762 482 m/s
+Refrakcyjność N
+Prędkość fazowa fali jest to prędkość, z jaką rozchodzą się miejsca fali o tej samej fazie.
+Prędkość grupowa – wielkość opisująca rozchodzenie się fal nieharmonicznych (innych niż
+sinusoidalne). Dla fal rozprzestrzeniających się bez zmiany kształtu impulsu falowego odpowiada
+prędkości rozchodzenia się impulsu i prędkości rozchodzenia się czoła fali.
+Prędkość rozchodzenia się modulacji, czyli prędkość grupowa zwykle odpowiada prędkości
+przenoszenia informacji i energii przez falę
+𝑣𝑔 = 𝑣𝜑 −
+𝑣
+𝑑𝑣𝜑
+𝑑
+𝑣
+zależność między prędkością grupową i fazową
+𝑑𝑣𝜑
+𝑑
+𝑣
+= 0 dla próżni a zatem 𝑣𝑔 = 𝑣𝜑 = 𝑐
+𝑛𝑔 = 𝑛𝜑 −
+𝑣
+𝑑𝑛𝜑
+𝑑
+𝑣
+(*) fazowy i grupowy współczynnik załamania
+Dla próżni 𝑛𝑔 = 𝑛𝜑 = 1
+Zależność fazowego współczynnika załamania od długości fali:
+𝑛𝜑 − 1 = 𝐴 + 𝐵
+𝑣
+2 + 𝐶
+𝑣
+4
+Po zróżniczkowaniu według
+𝑣 otrzymujemy
+𝑑𝑛𝜑
+𝑑
+𝑣
+= − 2𝐵
+𝑣
+3 − 4𝐶
+𝑣
+5
+Po podstawieniu (*):
+𝒏𝒈 − 𝟏 = 𝑨 + 𝟑𝑩
+𝒗
+𝟐 + 𝟓𝑪
+𝒗
+𝟒
+Wzory na współczynnik załamania:
+Dla mikrofal (Essena-Froome’a)
+𝑁𝑔 = (𝑛𝑔 − 1)106 = 77.624
+𝑇 (𝑝 − 𝑒) + 64.70
+𝑇 (1 + 5748
+𝑇 ) 𝑒
+gdzie
+T (temperatura) w Kelwinach,
+p (ciśnienie) w [hPa]
+e (ciśnienie pary wodnej - wilgotnosc) [hPa]
+lub
+𝑁𝑔 = (𝑛𝑔 − 1)106 = 103.49
+𝑇 (𝑝 − 𝑒) + 86.26
+𝑇 (1 + 5748
+𝑇 ) 𝑒
+gdzie
+T (temperatura) w Kelwinach,
+p (ciśnienie) w [mmHg]
+e (ciśnienie pary wodnej - wilgotność) [mmHg]
+Dla fal optycznych stosowane są wzory empiryczne Ciddor dla atmosfery normalnej (0 stopni
+Celsjusza i ciśnienie 1013.25 hPa, 0.03% CO2) (w zależności od długości fali):
+𝑵𝒈𝟎 = (𝒏𝒈𝟎 − 𝟏)𝟏𝟎𝟔 = 𝟐𝟖𝟕. 𝟔𝟏𝟓𝟓 + 𝟒. 𝟖𝟖𝟔𝟔
+𝒗
+𝟐 + 𝟎. 𝟎𝟔𝟖𝟎
+𝒗
+𝟒
+Czyli dla lasera helowo-neonowego:
+𝑣 = 632.8 𝑛𝑚 (do wzoru podajemy długość w mikrometrach 0.633)
+𝑛𝑔0 = 1.00030023
+𝑁𝑔0 = 300.23
+Oraz dla dowolnych warunków:
+𝑵𝒈 = (𝒏𝒈 − 𝟏)𝟏𝟎𝟔 = ( 𝟐𝟕𝟑. 𝟏𝟓
+𝟏𝟎𝟏𝟑. 𝟐𝟓 ∗ 𝑵𝒈𝟎 𝒑
+𝑻 ) − 𝟏𝟏. 𝟐𝟕𝒆
+𝑻
+𝑵𝒈 = (𝒏𝒈 − 𝟏)𝟏𝟎𝟔 = 𝑵𝒈𝟎 ∙ 𝟎. 𝟐𝟔𝟗𝟓𝟕𝟖 ∙ 𝒑
+𝑻 − 𝟏𝟏. 𝟐𝟕 𝒆
+𝑻
+Gdzie:
+T (temperatura) w Kelwinach, (T= t w Celsjuszach +273.15)
+p (ciśnienie) w [hPa]
+e (ciśnienie pary wodnej - wilgotnosc) [hPa]
+Wilgotność
+ Prężność aktualna e – prężność (ciśnienie pary wodnej) )obserwowana w danym
+miejscu oraz w danej chwili
+ Prężność maksymalna (nasycająca E )– najwyższa wartość ciśnienia, jaka może
+wystąpić w danej temperaturze, odpowiada ciśnieniu pary nasyconej w tej
+temperaturze. Rośnie ona z temperaturą. Osiągnięcie ciśnienia nasycającego jest
+warunkiem rozpoczęcia się procesu kondensacji (skraplania).
+Wilgotność względna ℎ = 𝑒
+𝐸 ∗ 100
+Wykorzystując psychrometr aspiracyjny Assmana możemy wyznaczyć cząstkowe ciśnienie pary
+wodnej
+𝑒 = 𝐸𝑤
+′ − 0,000662𝑝(𝑡 − 𝑡′)
+𝐸𝑤
+′ - maksymalna prężność pary w temperaturze t’ [hPa]
+p ciśnienie [hPa]
+t temperatura suchego termometru stopnie Celsjusza
+t’ temperatura mokrego termometru stopnie Celsjusza
+𝐸𝑤
+′ = 6.1078 𝑒( 17.269𝑡′
+237.30+𝑡′)
+e- podstawa logarytmu naturalnego
+Dla atmosfery standardowej na poziomie morza:
+T=15oC (288.15oK)
+P=1013.25 hPa (760 mm Hg)
+e=10.87 hPa (8.1 mmHg)
+𝜕𝐷
+𝜕𝑛 = − 𝐷
+𝑛
+𝜕𝑁𝑔
+𝜕𝑇 = −𝑵𝒈𝟎 ∙ 𝟎. 𝟐𝟔𝟗𝟓𝟕𝟖 ∙ 𝒑
+𝑻𝟐 + 𝟏𝟏. 𝟐𝟕 𝒆
+𝑻𝟐
+𝝏𝑵𝒈
+𝝏𝑻 ≈ ∆𝑵
+𝟏℃ = −𝟎. 𝟗𝟗 𝒎𝒎
+𝜕𝑁𝑔
+𝜕𝑝 = 𝑵𝒈𝟎 ∙ 𝟎. 𝟐𝟔𝟗𝟗𝟓𝟕𝟖 ∙ 𝟏
+𝑻
+𝝏𝑵𝒈
+𝝏𝒑 ≈ ∆𝑵
+𝟏𝒉𝑷𝒂 = 𝟎. 𝟐𝟖 𝒎𝒎
+𝜕𝑁𝑔
+𝜕𝑒 = −𝟏𝟏. 𝟐𝟕 𝟏
+𝑻
+𝝏𝑵𝒈
+𝝏𝒆 ≈ ∆𝑵
+𝟏𝒉𝑷𝒂 = −𝟎. 𝟎𝟒 𝒎𝒎
+Uwzględnienie warunków atmosferycznych w pomiarze długości
+𝜕𝐷
+𝜕𝑛 = − 𝐷
+𝑛0
+∆𝐷
+∆𝑛 = − 𝐷
+𝑛0
+𝑛0 − 𝑤𝑎𝑟𝑢𝑛𝑘𝑖 𝑠𝑡𝑎𝑛𝑑𝑎𝑟𝑑𝑜𝑤𝑒
+𝐷0 − 1 𝑘𝑚
+∆𝐷 = − 𝐷0
+𝑛0
+∆𝑛 ≈ −𝐷0(𝑛 − 𝑛0) = 𝐷0(𝑛0 − 𝑛)
+Lub
+∆𝐷 = (𝑁0 − 𝑁) ppm
+Przykład:
+temp= 5 st C
+ciśnienie 760 mmHg
+Studenci liczą dla lasera He-Ne (633 nm)
+Obliczone dla diody Ga-AS
+(910nm)
+D=Ngs- Ngr=-7.9 ppm
+Wpływ zakrzywienia fali elektromagnetycznej
+Współczynnik grupowy Ng0 - atmosfera normalna 293.78
+Współczynnik grupowy Ngs- atmosfera standardowa 280.43
+Współczynnik grupowy Ngr - warunki rzeczywiste 288.34
+Funkcje trygonometryczne:
+Sin 𝑥 = ∑ −1𝑛
+(2𝑛+1)!
+∞
+𝑛=0 𝑥2𝑛+1 = 𝑥 − 𝑥3
+3! + 𝑥5
+5! − ⋯
+∆𝑐 = 𝑐 − 𝑑
+𝜎 = 𝑑
+𝑟
+𝑑 = 𝜎𝑟 (∗)
+𝑐
+2𝑟 = 𝑠𝑖𝑛 𝜎
+2
+𝑠𝑖𝑛 𝜎
+2 = 𝜎
+2 − 1
+3! (𝜎
+2)3 = 𝜎
+2 − 𝜎3
+48
+𝑐 = 2𝑟𝑠𝑖𝑛 𝜎
+2
+𝑐 = 2𝑟 (𝜎
+2 − 𝜎3
+48) = 𝑟 (𝜎 − 𝜎3
+24)
+∆𝑐 = − 𝑟
+24 𝜎3
+∆𝒄 = − 𝒅𝟑
+𝟐𝟒𝒓𝟐 r=8x promień Ziemi
+c
+d
+r
+
+1. Pierwsza zak�adka: obliczenie  Ng dla d�ugo�ci fali od 400 do 1600 nm. Wykonanie wykresu zale�no�ci wsp�czynnik�w od d�ugo�ci fali, Wygenerowanie tabeli co 10 nm
+2. druga zak�adka: Obliczenie poprawki atmosferycznej: dane wprowadzane przez u�ytkownika: d�ugo�c fali w nm, temperatura sucha, temperatura mokra  (st C), ci�nienie w hPa, pomierzona d�ugo�� [m]. Wy�wietlanie: poprawka na km, poprawka do mierzonej d�ugo�ci, d�ugo�� poprawiona [m}]
+3. trzecia zak�adka: Obliczenie r�nicy mi�dzy �ukiem a ci�ciw� [wynik w mm] dla przedzia�u od 1 km do 100 km. Zrobienie wykresu i wygenerowanie tabeli z wynikami (co 1 km) 

@@ -1,0 +1,3 @@
+1. Pierwsza zak³adka: obliczenie  Ng dla d³ugoœci fali od 400 do 1600 nm. Wykonanie wykresu zale¿noœci wspó³czynników od d³ugoœci fali, Wygenerowanie tabeli co 10 nm
+2. druga zak³adka: Obliczenie poprawki atmosferycznej: dane wprowadzane przez u¿ytkownika: d³ugoœc fali w nm, temperatura sucha, temperatura mokra  (st C), ciœnienie w hPa, pomierzona d³ugoœæ [m]. Wyœwietlanie: poprawka na km, poprawka do mierzonej d³ugoœci, d³ugoœæ poprawiona [m}]
+3. trzecia zak³adka: Obliczenie ró¿nicy miêdzy ³ukiem a ciêciw¹ [wynik w mm] dla przedzia³u od 1 km do 100 km. Zrobienie wykresu i wygenerowanie tabeli z wynikami (co 1 km) 
