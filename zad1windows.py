@@ -30,12 +30,11 @@ def arc_chord_difference(distance):
 
 def main():
     font = sg.DEFAULT_FONT
-
     start = 400
     stop = 1601
     step = 10
-    x = np.arange(start, stop, step)
-    y = ng_zero(x)
+    x = list(range(start, stop, step))
+    y = [ng_zero(i) for i in x]
 
     layout_tab1 = [
         [sg.Text('Zakladka 1: Obliczenie Ng dla dlugosci fali od 400 do 1600 nm', font=font)],
@@ -61,10 +60,10 @@ def main():
     stop = 100001
     step = 1000
     plt.clf()
-    x = np.arange(start, stop, step)
-    y = arc_chord_difference(x)
+    x = list(range(start, stop, step))
+    y = [arc_chord_difference(i) for i in x]
     # meters to km
-    x = x / 1000
+    x = [i / 1000 for i in x]
 
     layout_tab3 = [
         [sg.Text('Zakladka 3: Roznica miedzy lukem a cieciwa', font=font)],
@@ -91,8 +90,8 @@ def main():
     stop = 1601
     step = 10
     plt.clf()
-    x = np.arange(start, stop, step)
-    y = ng_zero(x)
+    x = list(range(start, stop, step))
+    y = [ng_zero(i) for i in x]
     plt.plot(x, y, color='blue')
     plt.xlabel('Dlugosc fali (nm)')
     plt.ylabel('Wspolczynnik')
@@ -110,10 +109,10 @@ def main():
     stop = 100001
     step = 1000
     plt.clf()
-    x = np.arange(start, stop, step)
-    y = arc_chord_difference(x)
+    x = list(range(start, stop, step))
+    y = [arc_chord_difference(i) for i in x]
     # meters to km
-    x = x / 1000
+    x = [i / 1000 for i in x]
     plt.plot(x, y, color='blue')
     plt.xlabel('Odleglosc (km)')
     plt.ylabel('Roznica (mm)')
