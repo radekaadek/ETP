@@ -38,7 +38,7 @@ def main():
 
     layout_tab1 = [
         [sg.Text('Zakladka 1: Obliczenie Ng dla dlugosci fali od 400 do 1600 nm', font=font)],
-        [sg.Canvas(key='-CANVAS_TAB1-', pad=(0, 0), size=(400, 400))],
+        [sg.Canvas(key='-CANVAS_TAB1-', pad=(0, 0), size=(650, 650))],
         [sg.Text('Tabela co 10 nm', font=font)],
         [sg.Table(values=[*zip(x, y)], headings=['Dlugosc fali (nm)', 'Wspolczynnik'], font=font, auto_size_columns=False, col_widths=[25, 25], justification='center', num_rows=10, key='-TABLE_TAB1-', enable_events=True)],
     ]
