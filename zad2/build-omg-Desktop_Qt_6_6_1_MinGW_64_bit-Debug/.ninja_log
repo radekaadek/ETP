@@ -1,0 +1,12 @@
+# ninja log v5
+9	121	7236755352912097	omg_autogen/timestamp	ad407fcb1c122a94
+454	2268	7236721316885807	CMakeFiles/omg.dir/omg_autogen/mocs_compilation.cpp.obj	febf83db51b501ca
+9	121	7236755352912097	omg_autogen/mocs_compilation.cpp	ad407fcb1c122a94
+9	121	7236755352912097	C:/Users/radek_oikn3xp/Desktop/etpc/ETP/zad2/build-omg-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/omg_autogen/timestamp	ad407fcb1c122a94
+9	121	7236755352912097	C:/Users/radek_oikn3xp/Desktop/etpc/ETP/zad2/build-omg-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/omg_autogen/mocs_compilation.cpp	ad407fcb1c122a94
+465	821	7236721302412345	CMakeFiles/omg.dir/board.cpp.obj	cd18104457ff0dc9
+459	2189	7236721316095271	CMakeFiles/omg.dir/myButton.cpp.obj	cd0dbbe1cb74ed71
+133	1519	7236755366893646	CMakeFiles/omg.dir/mainwindow.cpp.obj	d715021ebfa668ce
+468	2673	7236721320921595	CMakeFiles/omg.dir/serial.cpp.obj	11a1b7e2a6865249
+130	2814	7236755379829874	CMakeFiles/omg.dir/main.cpp.obj	dc90cf28568bb0e4
+2814	3002	7236755381678780	omg.exe	865909dba7614568

@@ -1,4 +1,4 @@
-#include <board.h>
+#include "board.h"
 
 Board::Board() {
     reset();
@@ -9,7 +9,7 @@ void Board::print() const {
     for (int i = 0; i < 3; i++) {
         std::cout << i << " ";
         for (int j = 0; j < 3; j++) {
-            std::cout << board[i][j] << " ";
+            std::cout << board[j][i] << " ";
         }
         std::cout << "\n";
     }

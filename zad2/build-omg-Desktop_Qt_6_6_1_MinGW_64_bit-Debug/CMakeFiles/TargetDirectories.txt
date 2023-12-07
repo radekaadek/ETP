@@ -1,0 +1,9 @@
+C:/Users/radek_oikn3xp/Desktop/etpc/ETP/zad2/build-omg-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/omg.dir
+C:/Users/radek_oikn3xp/Desktop/etpc/ETP/zad2/build-omg-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+C:/Users/radek_oikn3xp/Desktop/etpc/ETP/zad2/build-omg-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/radek_oikn3xp/Desktop/etpc/ETP/zad2/build-omg-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
+C:/Users/radek_oikn3xp/Desktop/etpc/ETP/zad2/build-omg-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/install.dir
+C:/Users/radek_oikn3xp/Desktop/etpc/ETP/zad2/build-omg-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
+C:/Users/radek_oikn3xp/Desktop/etpc/ETP/zad2/build-omg-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
+C:/Users/radek_oikn3xp/Desktop/etpc/ETP/zad2/build-omg-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/omg_autogen_timestamp_deps.dir
+C:/Users/radek_oikn3xp/Desktop/etpc/ETP/zad2/build-omg-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/omg_autogen.dir

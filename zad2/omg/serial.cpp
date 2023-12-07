@@ -21,8 +21,10 @@ bool Serial::start(const std::string portName){
     //We're not yet connected
     connected = false;
 
+    LPCWSTR portNameLPCWSTR = std::wstring(portName.begin(), portName.end()).c_str();
+
     //Try to connect to the given port throuh CreateFile
-    hSerial = CreateFile(portName.c_str(),
+    hSerial = CreateFile(portNameLPCWSTR,
             GENERIC_READ | GENERIC_WRITE,
             0,
             NULL,
@@ -56,7 +58,7 @@ bool Serial::start(const std::string portName){
         }
         else
         {
-            //Define serial connection parameters for the arduino board
+            //Define serial connection parameters
             dcbSerialParams.BaudRate=CBR_9600;
             dcbSerialParams.ByteSize=8;
             dcbSerialParams.StopBits=ONESTOPBIT;

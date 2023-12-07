@@ -12,7 +12,7 @@ class Serial
         bool connected;
         //Get various information about the connection
         COMSTAT status;
-        //Keep track of last error
+        //Keep track of last errors
         DWORD errors;
 
     public:
@@ -32,11 +32,11 @@ class Serial
         int ReadData(char *buffer, unsigned int nbChar);
         std::string ReadData(unsigned int nChars);
         std::string ReadDataLength(unsigned int length, uint8_t sleep=1);
-        std::string ReadLine(std::string end="\r\n", uint8_t sleep=1);
+        std::string ReadLine(const std::string end="\r\n", uint8_t sleep=1);
         //Writes data from a buffer through the Serial connection
         //return true on success.
         bool WriteData(char *buffer, unsigned int nbChar);
-        bool WriteData(std::string data);
+        bool WriteData(const std::string data);
         //Check if we are actually connected
         bool IsConnected() const;
         DWORD queueSize();
